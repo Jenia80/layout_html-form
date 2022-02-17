@@ -1,13 +1,10 @@
-/* styles go here */
 .group {
   margin-bottom: 20px;
   padding-left: 12px;
-
 }
 
 .form-field {
   display: block;
-
 }
 
 .form-field:focus {
@@ -19,14 +16,26 @@
   width: 30px;
 }
 
-.a > .form-field {
-  margin-bottom: 10px;
-}
-
 .cars {
-  border: 2px solid /* stylelint-disable-next-line rule */;
+  border: 2px solid;
   width: 30px;
   height: 43px;
   display: inline-block;
   font-size: 12px;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+y
+select {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.last_child {
+  margin-bottom: 0;
 }
